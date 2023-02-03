@@ -1,0 +1,239 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+p{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: #7f7f7f;
+	word-spacing: 1px;
+	letter-spacing: .5px;
+}
+.home{
+	width: 100%;
+	height: 750px;
+	background: linear-gradient(to right, #004cff, #0beaea);
+	border-radius: 0px 0px 550px 250px;
+}
+header{
+	width: 100%;
+	height: 150px;
+}
+.nav-ul{
+	margin-left: 110px;
+}
+nav ul li a{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	transition-duration: .3s;
+}
+nav ul li a:hover{
+	color: black !important;
+}
+.home-contant{
+	margin-top: 80px;
+}
+.sr-input{
+	background: #ffffff8a;
+	border: 1px solid #ffffff42;
+}
+.home-contant h1{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 45px;
+}
+.home-contant p{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.home-contant button{
+	width: 170px;
+	margin-right: 30px;
+	
+	background: #FF8E2C;
+	color: #fff;
+}
+.home-contant button:hover{
+	background: white;
+	color: black;
+}
+.home-img img{
+	width: 510px;
+	padding-left: 150px;
+}
+.services .s-content p{
+	color: #888;
+	padding-top: 65px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.services .s-content h1{
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	font-size: 40px;
+	color: #2d2d2d;
+}
+.card-body button{
+	font-size: 15px;
+}
+
+/* Develop section */
+.dev-section{
+	background: #f8ffffb0;
+}
+.dev-img img{
+	width: 500px;
+}
+.dev-content h1{
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 55px;
+}
+/* Design and Wordpress */
+.design-sec{
+	background: #FAFFFF;
+	border-top: 1px solid #e8e8e8;
+}
+
+
+/* Extra Services */
+.ex-services{
+	width: 100%;
+	height: ;
+	background-image: url(images/hero_bg_2.jpg);
+	background-size: cover;
+	border-radius: 200px 0px 200px  0px;
+	overflow: hidden;
+}
+.list{
+	background: #f2f2f2ab;
+}
+.list-item{
+	border-bottom: 1px solid #09ff24;
+}
+.list-item p{
+	width: 95%;
+}
+/* Pricing */
+.c-hover{
+	transition-duration: .4s;
+}
+.c-hover:hover{
+	box-shadow:0 0 15px #3c7fff;
+	transform: translateY(-2px);
+}
+
+/* Get Services */
+.main-form{
+	background: linear-gradient(to top , #08ff000f, #e3ff953d);
+	padding-bottom: 15px;
+	border-radius: 5px;
+}
+.con-box ul{
+	padding: 0;
+}
+.con-box li{
+	list-style: none;
+	border-bottom: 1px solid #e1e1e1;
+	height: 40px;
+	padding: 7px 0;
+}
+/* Testimonials */
+.t-box{
+	width: 90%;
+	margin: auto;
+}
+.radiuss{
+	border-radius: 0px 100px 0px 100px;
+}
+.t-text{
+	text-align: center;
+	padding: 10px 0px;
+}
+.title{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+}
+.p-text{
+	font-size: 21px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	color: silver;
+	text-align: center;
+}
+/* Extra block */
+.ex-block{
+	width: 100%;
+	height: 500px;
+	background-image: url(images/cta_bg.png);
+	background-size: cover;
+	margin-top: 30px;
+}
+/* Ex-Services */
+.content-boxx{
+	width: 700px;
+	padding-top: 150px;
+}
+.content-boxx h1{
+	text-align: center;
+	color: #fff;
+}
+.content-boxx p{
+	text-align: center;
+	margin:15px auto;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: tahoma;
+	color: #e8ffff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media all and (max-width: 1100px){
+	.dev-img img{
+		width: 470px;
+	}
+	.home{
+		border-radius: 0px 0px 0px 0px;
+		height: 800px;
+	}
+	.ex-services{
+		border-radius: 0px 0px 0px 0px;
+	}
+	.radiuss{
+		border-radius: 0px 0px 0px 0px;
+    }
+}
+@media all and (max-width: 992px){
+	.dev-img img {
+		width: 100%;
+	}
+	.dev-content h1{
+		font-size: 40px;
+	}
+	.content-boxx p{
+		text-align: center;
+		width: 100%;
+	}
+}
